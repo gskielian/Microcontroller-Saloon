@@ -29,5 +29,5 @@ def send_and_receive( theinput ):
   time.sleep(0.1)
 
 while True:
-  tempC = send_and_receive('1')
+  send_and_receive('1')
   time.sleep(1)
